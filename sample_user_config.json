@@ -2,12 +2,10 @@
   "extra_cmdline": {
     "pid": "0x0001",
     "vid": "0x46f4",
-    "sn": "1330ODN004687",
-    "mac1": "0011329CD6A2",
-    "mac2": "0011329CD6A3",
-    "mac3": "0011329CD6A4",
-    "mac4": "0011329CD6A5",
-    "netif_num": "4",
+    "sn": "20C0SQRV6AESL",
+    "mac1": "001132D1790D",
+    "mac2": "001132D1790E",
+    "netif_num": "2",
     "DiskIdxMap": "0600",
     "SataPortMap": "66"
   },
