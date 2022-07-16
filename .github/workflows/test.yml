@@ -62,10 +62,9 @@ jobs:
 
       - name: 添加扩展驱动
         run: |
-          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-boot-wait.json
           ./redpill_tool_chain.sh add https://raw.githubusercontent.com/kaiyi88/rp-ext/main/acpid/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/redpill-load/raw/develop/redpill-virtio/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/redpill-load/raw/develop/redpill-misc/rpext-index.json
+          ./redpill_tool_chain.sh add https://github.com/jumkey/redpill-load/raw/develop/redpill-misc/rpext-index.json
           
           
       - name: 添加网卡驱动
